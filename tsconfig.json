@@ -22,6 +22,7 @@
         "noEmit": true
 
     },
+    "exclude": ["node_modules"],
     "include": [
         "src", "a.spec.ts"
     ]

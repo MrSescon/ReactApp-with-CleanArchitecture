@@ -1,5 +1,5 @@
 import faker from 'faker'
-import { AxiosHttpClient } from './axios.http-client'
+import { AxiosHttpClient } from './axios-http-client'
 import axios from 'axios'
 
 jest.mock('axios')

@@ -4,10 +4,10 @@ module.exports = {
     coverageDirectory: 'coverage',
     testEnviroment: 'jsdom', //node
     transform: {
-      '.+\\.(ts|tsx )$': 'ts-jest'
+      '.+\\.(ts|tsx)$': 'ts-jest'
     },
     moduleNameMapper: {
       '@/(.*)': '<rootDir>/src/$1',
-      '\\.scss$': ''
+      '\\.scss$': 'identity-obj-proxy'
     }
   }

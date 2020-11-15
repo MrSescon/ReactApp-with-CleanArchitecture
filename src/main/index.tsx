@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import login from '@/presentation/pages/login'
+import Login from '@/presentation/pages/Login'
 
 ReactDOM.render(
   <Login/>,

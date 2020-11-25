@@ -26,6 +26,11 @@
 			margin-top: 32px;
 		}
 
+		&:disabled {
+			background-color: $disableBackground;
+			color: $disabledColor;
+		}
+
 		.link {
 			text-align: center;
 			color: $primary;

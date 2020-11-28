@@ -8,8 +8,8 @@ const Login: React.FC = () => {
     isLoading: false
   })
   const [ errorState ] = useState({
-    email: 'Campo Obrigatório',
-    password: 'Campo Obrigatório',
+    email: 'Campo obrigatório',
+    password: 'Campo obrigatório',
     main: ''
   })
 

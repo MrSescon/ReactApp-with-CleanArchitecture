@@ -1,4 +1,4 @@
 declare module '*.scss' {
-  const content: {[ cassName: string]: string}
+  const content: {[ className: string]: string}
   export = content
 }

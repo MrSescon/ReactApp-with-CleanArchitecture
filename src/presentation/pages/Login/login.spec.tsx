@@ -21,7 +21,7 @@ type SutTypes = {
 type sutParams = {
   validationError: string
 }
-const history = createMemoryHistory()
+const history = createMemoryHistory({initialEntries: ['/login'] })
 const makeSut = (params?: sutParams): SutTypes => {
   const validationStub = new ValidationStub()
   const authenticationSpy = new AuthenticationSpy()
@@ -171,6 +171,8 @@ describe('Login Component', () => {
         'accessToken',
         authenticationSpy.account.accessToken
       )
+    expect(history.length).toBe(1)
+    expect(history.location.pathname).toBe('/')
   })
 
   test('Should go to signup page', () => {

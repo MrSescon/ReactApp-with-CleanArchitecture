@@ -53,16 +53,19 @@
 * Faker
 * Coveralls
 * React Hooks
+* React Router
 * Husky
 * Lint Staged
 * Eslint
 * Standard Javascript Style
 
 > ## Features do React
+* React Testing Library
 * React Router
 * UseState
 * UseContext
 * UseEffect
+* UseHistory
 * Memo
 * Functional Components
 

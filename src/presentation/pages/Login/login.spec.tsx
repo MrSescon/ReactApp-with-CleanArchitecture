@@ -21,7 +21,7 @@ type SutTypes = {
 type sutParams = {
   validationError: string
 }
-const history = createMemoryHistory({initialEntries: ['/login'] })
+const history = createMemoryHistory({ initialEntries: ['/login'] })
 const makeSut = (params?: sutParams): SutTypes => {
   const validationStub = new ValidationStub()
   const authenticationSpy = new AuthenticationSpy()

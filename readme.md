@@ -4,6 +4,16 @@
 
 # **4Dev React - Enquetes para Programadores**
 
+[![alt text](./public/img/course-logo.png "Link para o treinamento")](https://www.udemy.com/course/)
+
+---
+
+## [**Link para o curso completo**](https://www.udemy.com/course/)
+
+Essa sistema faz parte do treinamento do professor Rodrigo Manguinho (Mango) na Udemy.
+
+O objetivo do treinamento é mostrar como criar um sistema em ReactJs com uma arquitetura bem definida e desacoplada, utilizando TDD (programação orientada a testes) como metodologia de trabalho, Clean Architecture para fazer a distribuição de responsabilidades em camadas, sempre seguindo os princípios do SOLID, DRY, YAGNI, KISS e aplicando Design Patterns para resolver alguns problemas comuns.
+
 ## [**Link para a documentação da API**](http://fordevs.herokuapp.com/api-docs)
 
 > ## Princípios
@@ -17,7 +27,6 @@
 * Keep It Simple, Silly (KISS)
 * Composition Over Inheritance
 * Small Commits
-
 > ## Design Patterns
 * Factory
 * Adapter
@@ -26,11 +35,11 @@
 * Dependency Injection
 * Abstract Server
 * Composition Root
-
 > ## Metodologias e Designs
 * TDD
 * Clean Architecture
 * DDD
+* Reactive Programming
 * Conventional Commits
 * GitFlow
 * Modular Design
@@ -39,7 +48,6 @@
 * Continuous Integration
 * Continuous Delivery
 * Continuous Deployment
-
 > ## Bibliotecas e Ferramentas
 * React
 * Typescript
@@ -58,7 +66,6 @@
 * Lint Staged
 * Eslint
 * Standard Javascript Style
-
 > ## Features do React
 * React Testing Library
 * React Router
@@ -68,7 +75,6 @@
 * UseHistory
 * Memo
 * Functional Components
-
 > ## Features do Git
 * Alias
 * Log Personalizado
@@ -76,9 +82,16 @@
 * Reset
 * Amend
 * Tag
+* Tag Anotada
 * Stash
 * Rebase
 * Merge
+* Add
+* Commit
+* Push
+* Pull
+* Shortlog
+* Status
 
 > ## Features do Typescript
 * POO Avançado
@@ -89,7 +102,6 @@
 * Build
 * Deploy
 * Generics
-
 > ## Features de Testes
 * Testes Unitários
 * Testes de Integração

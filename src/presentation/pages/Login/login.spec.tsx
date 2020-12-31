@@ -132,7 +132,7 @@ describe('Login Component', () => {
     testButtonIsDisabled(sut, 'submit', false)
   })
 
-  test('Should show spinner on Submit', async() => {
+  test('Should show spinner on Submit', async () => {
     const { sut } = makeSut()
     await simulateValidSubmit(sut)
     testElementsExists(sut, 'spinner')
@@ -146,7 +146,7 @@ describe('Login Component', () => {
     expect(authenticationSpy.params).toEqual({ email, password })
   })
 
-  test('Should call Authentication only once', async() => {
+  test('Should call Authentication only once', async () => {
     const { sut, authenticationSpy } = makeSut()
     await simulateValidSubmit(sut)
     await simulateValidSubmit(sut)

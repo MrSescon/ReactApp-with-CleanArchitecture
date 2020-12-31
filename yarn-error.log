@@ -34,10 +34,10 @@ npm manifest:
   		"test:staged": "yarn test -- --findRelatedTests",
   		"test:ci": "yarn test -- --coverage",
   <<<<<<< HEAD
-  		"test:coveralls": "yarn test:ci && coveralls < coverage/lcov.info ",
-  =======
   		"test:coveralls": "npm run test:ci && coveralls < coverage/lcov.info ",
-  >>>>>>> 7cd38a8e791ee51f1a48ffcfba4e2cccd08f3180
+  =======
+  		"test:coveralls": "yarn test:ci && coveralls < coverage/lcov.info ",
+  >>>>>>> b740241ecef6f5acb5dc7d61e0df1a790f9771b6
   		"check": "npm-check -u -s"
   	},
   	"keywords": [],
@@ -54,6 +54,7 @@ npm manifest:
   		"@types/react-router-dom": "^5.1.7",
   		"@typescript-eslint/eslint-plugin": "^4.11.1",
   		"clean-webpack-plugin": "^3.0.0",
+  		"coveralls": "^3.1.0",
   		"css-loader": "^5.0.1",
   		"eslint": "^7.16.0",
   		"eslint-config-standard-with-typescript": "^19.0.1",

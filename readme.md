@@ -5,11 +5,6 @@
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
 # **4Dev React - Enquetes para Programadores**
-
-[![alt text](./public/img/course-logo.png "Link para o treinamento")](https://www.udemy.com/course/)
-
----
-
 ## [**Link para o curso completo**](https://www.udemy.com/course/)
 
 Essa sistema faz parte do treinamento do professor Rodrigo Manguinho (Mango) na Udemy.

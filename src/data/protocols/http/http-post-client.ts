@@ -1,10 +1,10 @@
 import { HttpResponse } from '@/data/protocols/http'
 
-export type HttpPostClientParams<T> ={
+export type HttpPostParams<T> ={
   url: string
   body?: T
 }
 
 export interface HttpPostClient<T, R> {
-  post: (params: HttpPostClientParams<T>) => Promise<HttpResponse<R>>
+  post: (params: HttpPostParams<T>) => Promise<HttpResponse<R>>
 }

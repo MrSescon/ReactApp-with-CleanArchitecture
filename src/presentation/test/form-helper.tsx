@@ -26,9 +26,15 @@ const populateField = (
   fireEvent.input(input, { target: { value } })
 }
 
+const testElementExists = (sut: RenderResult, fieldName: string): void => {
+  const el = sut.getByTestId(fieldName)
+  expect(el).toBeTruthy()
+}
+
 export {
   testChildCount,
   testButtonIsDisabled,
   testStatusForField,
-  populateField
+  populateField,
+  testElementExists
 }

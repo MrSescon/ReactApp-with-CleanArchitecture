@@ -45,7 +45,7 @@ const makeSut = (params?: SutParams): SutTypes => {
   )
   return {
     sut,
-    addAccountSpy
+    addAccountSpy,
     saveAccessTokenMock
   }
 }
@@ -214,5 +214,4 @@ describe('SignUp Component', () => {
     expect(history.length).toBe(1)
     expect(history.location.pathname).toBe('/login')
   })
-  
 })
